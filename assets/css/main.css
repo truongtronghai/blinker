@@ -38,6 +38,18 @@
   background-color: #1677ff !important;
 }
 
+@media (orientation: landscape) and (max-height: 600px) {
+  .container {
+    flex-direction: row;
+  }
+
+  #left,
+  #right {
+    width: 50%;
+    height: 100%;
+  }
+}
+
 @media (min-width: 769px) {
   .container {
     flex-direction: row;
