@@ -1,0 +1,10 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Blinker'
+
+# Single-page: no taxonomy/term pages needed
+disableKinds = ['taxonomy', 'term']
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'

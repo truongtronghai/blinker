@@ -1,0 +1,1 @@
+const itervalId=setInterval(()=>{const e=document.getElementById("left"),t=document.getElementById("right");e.classList.contains("on")?(e.classList.remove("on"),t.classList.add("on")):(e.classList.add("on"),t.classList.remove("on"))},500)
