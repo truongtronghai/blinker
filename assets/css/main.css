@@ -29,9 +29,16 @@
 }
 
 #right {
+  position: relative;
   width: 50%;
   height: 100%;
   background-color: #715f04;
+}
+
+#right img {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
 }
 
 #left.on {
